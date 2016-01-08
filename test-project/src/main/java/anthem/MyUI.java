@@ -30,7 +30,7 @@ public class MyUI extends UI {
         button.addClickListener(new Button.ClickListener() {
             @Override
             public void buttonClick(ClickEvent event) {
-                layout.addComponent(new Label("Thank you for clicking"));
+                layout.addComponent(new Label("Thank you for clicking the button."));
             }
         });
         layout.addComponent(button);
